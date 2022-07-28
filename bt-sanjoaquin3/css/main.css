@@ -1,0 +1,254 @@
+body {
+    display: block;
+    width: 993px;
+    height: 1865px;
+    border: 1px solid rgb(54, 42, 42);
+    margin: 0 auto;
+    
+}
+.header-top {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(244, 194, 67) 0%, #fff 41%, #fff 53%, rgb(243, 192, 60) 100%);
+}
+
+.header-top img {
+    width: 90px;
+    height: 80px;
+    margin: 32px 0 27px 37px;
+}
+
+.title h2 {
+    font-family: Sora;
+    font-size: 35px;
+    line-height: 50px;
+    color: rgb(242, 151, 46);
+    margin: 14px 0 0 35px;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+    
+}
+
+.title h3 {
+    line-height: 40px;
+    margin: 0 0 0 35px;
+    font-style: bold;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+}
+.list {
+    display: flex;
+    list-style: none;
+    line-height: 63px;
+    font-size: 16px;
+    font-style: bold;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+.list-item {
+    background-color: rgb(242,151,46);
+    min-width: 197px;
+    text-align: center;
+}
+.list-item:hover {
+    background-color: rgba(11, 184, 236, 0.884);
+    cursor: pointer;
+}
+.m-left {
+    margin-left: 2px;
+   padding: auto;
+}
+.list-2 {
+    list-style: none;
+    width: 197px;
+    padding: 0;
+    position: absolute;
+    display: none;
+    animation: fedin 3s ease-in;
+}
+.li-hover:hover  .list-2{
+    display: block;
+}
+.b-top {
+    border-top: 2px solid #fff;
+}
+.main {
+    background-color: rgb(244,238,228);
+}
+.sec1 {
+    margin: 0 69px 0 51px;
+    border-bottom: 1px solid rgb(243,161,69);
+}
+.sec1 h2 {
+    margin: 0;
+    padding: 60px 0 15px 0;
+    font-style: bold;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.sec1-p1 {
+    line-height: 24px;
+    margin: 0;
+}
+.sec1-p2 {
+    margin:10px 0 24px 32px;
+    line-height: 24px;
+}
+.sec2 {
+    margin-left: 51px;
+    border-bottom: 1px solid rgb(243,161,69);
+}
+.sec2 h2 {
+    font-size: 28px;
+    line-height: 40px;
+    font-style: bold;
+    margin-top: 45px;
+}
+.sec2 img {
+    margin: 0 58px 20px 49px;
+}
+.sec2-p {
+    display: flex;
+}
+.sec2-p1 {
+    margin: 0;
+    line-height: 24px;
+}
+.sec2-p2 {
+    line-height: 24px;
+    margin: 0 81px 29px 0;
+
+}
+.sec3 {
+    margin: 29px 49px 0 59px;
+    padding-bottom: 30px;
+}
+.sec3 h2 {
+    line-height: 40px;
+    font-size: 28px;
+    font-style: bold;
+}
+.sec3-list {
+     display: flex;
+}
+.sec3-list1_item ,.sec3-list2_item {
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer {
+    height: 100px;
+    background-color: rgb(242,151,46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+}
+/* responsive */
+@media screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        max-width: 375px;
+    }
+    .list {
+        display: none;
+    }
+    .header-top {
+        width: 100%;
+        height: 130px;
+    }
+    .header-top img {
+        position: absolute;
+        top: 38px;
+        left: 10px;
+        margin: 0;
+        width: 52px;
+        height: 52px;
+    }
+    .title {
+        width: 100%;
+        margin: auto;
+    }
+    .title h2 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: bold;
+        margin: 0 0 0 80px;
+    }
+    .title h3 {
+        font-size: 12px;
+        line-height: 40px;
+        margin: 0 0 0 80px;
+    }
+    .main {
+        padding: 0 28px 0;
+        margin: 0;
+    }
+    .sec1 {
+        margin: 0;
+    }
+    .sec1 h2 {
+        padding: 31px 0 0 0 ;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .sec1-p1 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 38px;
+    }
+    .sec1-p2 {
+        display: none;
+    }
+    .sec2 {
+        margin: 0;
+    }
+    .sec2 h2 {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 35px 0 10px 0;
+    }
+    .sec2-p {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec2-p img {
+        margin: 0;
+    }
+    .sec2-p1 {
+        margin: 45px 0 40px 0;
+    }
+    .sec2-p2 {
+        margin:0 0 75px 0;
+    }
+    .sec3 {
+        margin: 55px 0 0 0;
+        padding-bottom: 20px;
+    }
+    .sec3 h2 {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .sec3-list {
+        flex-direction: column;
+        padding-left: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .footer {
+        font-size: 14px;
+        line-height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
