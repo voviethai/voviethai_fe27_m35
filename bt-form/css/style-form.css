@@ -1,0 +1,35 @@
+.form-list {
+    width: 1200px;
+    border: 1px solid red;
+    padding: 75px 80px ;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+label {
+    font-weight: bold;
+}
+.form-control{
+    border: 1px solid #000;
+}
+h3 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.bd-right {
+    border-right: 2px solid #000;
+}
+.form1 {
+    padding-right: 45px;
+}
+.form2 {
+    padding-left: 60px;
+}
+.form-check-label a {
+    text-decoration: none;
+}
+.m-left {
+    margin-left: 15px;
+}
+.btn {
+    width: 115px;
+}
